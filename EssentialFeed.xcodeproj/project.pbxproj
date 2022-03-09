@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE1585DE27C511E9003E8721 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1585D527C511E9003E8721 /* EssentialFeed.framework */; };
-		CE1585E327C511E9003E8721 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1585E227C511E9003E8721 /* EssentialFeedTests.swift */; };
+		CE1585E327C511E9003E8721 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1585E227C511E9003E8721 /* RemoteFeedLoaderTests.swift */; };
 		CE1585E427C511E9003E8721 /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1585D827C511E9003E8721 /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE15861027C51673003E8721 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15860F27C51673003E8721 /* FeedItem.swift */; };
 		CE15861227C516E7003E8721 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15861127C516E7003E8721 /* FeedLoader.swift */; };
@@ -28,7 +28,7 @@
 		CE1585D527C511E9003E8721 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1585D827C511E9003E8721 /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		CE1585DD27C511E9003E8721 /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE1585E227C511E9003E8721 /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
+		CE1585E227C511E9003E8721 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		CE15860F27C51673003E8721 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		CE15861127C516E7003E8721 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,7 +83,7 @@
 		CE1585E127C511E9003E8721 /* EssentialFeedTests */ = {
 			isa = PBXGroup;
 			children = (
-				CE1585E227C511E9003E8721 /* EssentialFeedTests.swift */,
+				CE1585E227C511E9003E8721 /* RemoteFeedLoaderTests.swift */,
 			);
 			path = EssentialFeedTests;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE1585E327C511E9003E8721 /* EssentialFeedTests.swift in Sources */,
+				CE1585E327C511E9003E8721 /* RemoteFeedLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +351,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = M522U4LXZT;
+				DEVELOPMENT_TEAM = Y8JUUV8U24;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -381,7 +381,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = M522U4LXZT;
+				DEVELOPMENT_TEAM = Y8JUUV8U24;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -408,7 +408,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M522U4LXZT;
+				DEVELOPMENT_TEAM = Y8JUUV8U24;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chance.EssentialFeedTests;
@@ -424,7 +424,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M522U4LXZT;
+				DEVELOPMENT_TEAM = Y8JUUV8U24;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chance.EssentialFeedTests;
